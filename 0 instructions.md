@@ -15,4 +15,4 @@ Here is the correct order of practicing Level 1 commands:
 3. prompt (asking users for variable values and including those in an alert)
 3. conditionals (if/else if/else) - these have not been added yet. 
 
-For Level 2, remember that you have to call main() at the top, otherwise the code won't run!
+For Level 2, remember that **you have to call main() at the top**, otherwise the code won't run!
