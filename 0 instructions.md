@@ -9,8 +9,10 @@ Here are the files at left:
 
 Don't leave code you write in script.js, because then all the code will keep running, and you only want to run the new code you make to test it.  After you have finished working with a kata, move that code to done.js - or delete it.
 
-Here is the correct order of practicing commands: 
+Here is the correct order of practicing Level 1 commands: 
 
 1. var & alert (showing something in a pop-up) (mixing string text and variables in an alert)
 3. prompt (asking users for variable values and including those in an alert)
 3. conditionals (if/else if/else) - these have not been added yet. 
+
+For Level 2, remember that you have to call main() at the top, otherwise the code won't run!
