@@ -1,20 +1,48 @@
-/* Variable and Alert Katas */
-// These katas do not involve functions and are very basic. 
+/* CALCULATOR KATA */
 
-/* COLOR KATAS */
+/* This is best done with a switch control, though can also be a chain of conditionals. */
+main();
+/* FUNCTION main() 
+ * Ask the user what operation they want (+, -, *, /)
+ * Ask the user for the first number (a)
+ * Parse a as an integer
+ * Ask the user for the second number (b)
+ * Parse b as an integer
+ * Based on the operation, send the numbers to the right function as
+ * arguments and store the returned value in variable called result
+ * Alert the equation a + operation + b = result
+ * @param: none (main never gets params)
+ * @return: none (main never gets returns
+ */
+function main(){
+    let op = prompt("+, -, *, /");
+    let a = prompt("First Number");
+    let b = prompt("Second Number");
+    alert(add(a,b));
+}
+/* FUNCTION add(a,b)
+ * define a function called add with two number parameters a and b
+ * @param: a, b (integers)
+ * @return: a + b
+ */
+function add(a,b){
+    return a + b;
+}
 
-/* Var Alert */
-// make a string variable for a color, set it equal to your favorite
-// alert the message" "My favorite color is " plus the color
+/* FUNCTION subtract(a,b)
+ * define a function called subtract with two number parameters a and b
+ * @param: a, b (integers)
+ * @return: a - b
+ */
 
-/* Var Alert Prompt */
-// make a string variable for color, prompt the user for their favorite
-// alert color " is a nice color!"
+/* FUNCTION multiply(a,b)
+ * define a function called multiply with two number parameters a and b
+ * @param: a, b (integers)
+ * @return: a * b (* means multiply)
+ */
 
-/* Var Alert Prompt Conditional */
-// make a variable for color, prompt the user for their favorite
-var color = prompt("What's your favorite color?");
-// if user enters "black" alert "Black is not really a color." 
-if (color == "black") alert("Black is not really a color.");
-// otherwise alert color " is a nice color!"
-else alert(color + " is a nice color!");
+/* FUNCTION divide(a,b)
+ * define a function called divide with two number parameters a and b
+ * @param: a, b (integers)
+ * @return: a / b (/ means divided by)
+ */
