@@ -1,3 +1,4 @@
+# Katas Level 1 Instructions
 Here are the files at left: 
 
 1. **script.js** is where you paste comments, then build and test code.
