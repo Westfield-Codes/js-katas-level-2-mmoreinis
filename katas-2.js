@@ -5,7 +5,7 @@
 /* AGE KATA */
 
 /* Var, Alert, Prompt, Function */
-
+`
 /* FUNCTION main() 
  * Facebook wants to check if you're 13, so they ask your birth year 
  * set age = "How old are you?"
@@ -61,17 +61,17 @@
 /* This is best done with a JS switch control, though can also be a chain of conditionals. */
 
 /* FUNCTION main() 
- * Ask the user what operation they want (+, -, *, /)
- * Ask the user for the first number (a)
- * Parse a as an integer
- * Ask the user for the second number (b)
- * Parse b as an integer
- * Based on the operation, send the numbers to the right function as
- * arguments and store the returned value in variable called result
- * Alert the equation a + operation + b = result
  * @param: none (main never gets params)
  * @return: none (main never gets returns
  */
+ // Ask the user what operation they want (+, -, *, /)
+ // Ask the user for the first number (a)
+ // Parse a as an integer
+ // Ask the user for the second number (b)
+ // Parse b as an integer
+ // Based on the operation, send the numbers to the right function as arguments 
+ // store the returned value in variable called result
+ // Alert the equation a + operation + b = result
 
 /* FUNCTION add(a,b)
  * define a function called add with two number parameters a and b
