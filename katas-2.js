@@ -34,7 +34,7 @@
 /* ************************************* */
 
 
-/* PET KATA */
+/* PET KATA: Feed the Dog */
 
 /* Var, Alert, Prompt, Function, Global */
 
@@ -47,8 +47,8 @@
  */
 
 /* FUNCTION feedDog(dogName, cups) */
-/* define a function called feedDog with string parameter dogName, number parameter cups
- * loop from cup = 1 to cups.  For each cup, display "Here's a cup of kibble, [dogName]!"
+/* Define a function called feedDog with string parameter dogName, number parameter cups.
+ * Loop from cup = 1 to cups.  For each cup, display "Here's a cup of kibble, [dogName]!"
  * @param: dogName (string), cups (integer)
  * @return: none
  */ 
@@ -58,7 +58,7 @@
 
 /* CALCULATOR KATA */
 
-/* This is best done with a switch control, though can also be a chain of conditionals. */
+/* This is best done with a JS switch control, though can also be a chain of conditionals. */
 
 /* FUNCTION main() 
  * Ask the user what operation they want (+, -, *, /)
@@ -100,7 +100,7 @@
 /* ************************************* */
 
 
-/* ICE CREAM KATA */
+/* ICE CREAM CONE KATA */
 
 /* Var, Alert, Prompt, Conditional, While, Function. Global, Concatenation */
 
@@ -124,7 +124,6 @@
  * @return: none
  */
 
-
 /* FUNCTION nextScoop(scoop)
  * initialize a variable called flavor, prompt for "Flavor for scoop number [scoop]"
  * @param: scoop (integer)
@@ -134,7 +133,7 @@
 
 /* ************************************* */
 
-/* COLOR KATA */
+/* COLOR WHEEL KATA */
 
 /* Var Alert Prompt Conditional Switch 3 Functions */
 
