@@ -1,17 +1,26 @@
-/* Variable and Alert Katas */
-// These katas do not involve functions and are very basic. 
+/* FUNCTION main() 
+ * Perform basic arithmetic.
+ * @param: none (main never gets params)
+ * @return: none (main never gets returns
+ */
+function main() {
+    let operation = prompt("What operation do you want (+, -, *, /)");
+    let a = prompt("First number");
+    a = parseInt(a);
+    let b = prompt("Second number");
+    b = parseInt(b);
+    let result = 0;
+    if (operation == "+") {
+        result = add(a,b);
+    }
+    alert(a + operation + b + "=" + result);
+}
 
-/* COLOR KATAS */
-
-/* Var Alert */
-// make a string variable for a color, set it equal to your favorite
-// alert the message" "My favorite color is " plus the color
-
-/* Var Alert Prompt */
-// make a string variable for color, prompt the user for their favorite
-// alert color " is a nice color!"
-
-/* Var Alert Prompt Conditional */
-// make a variable for color, prompt the user for their favorite
-// if user enters "black" alert "Black is not really a color." 
-// otherwise alert color " is a nice color!"
+/* FUNCTION add(a,b)
+ * define a function called add with two number parameters a and b
+ * @param: a, b (integers)
+ * @return: a + b
+ */
+function add(a,b){
+    return a + b;
+}
