@@ -61,6 +61,7 @@
 /* This is best done with a JS switch control, though can also be a chain of conditionals. */
 
 /* FUNCTION main() 
+ * Perform basic arithmetic as a calculator
  * @param: none (main never gets params)
  * @return: none (main never gets returns
  */
