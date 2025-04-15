@@ -63,7 +63,7 @@
 /* FUNCTION main() 
  * Perform basic arithmetic as a calculator
  * @param: none (main never gets params)
- * @return: none (main never gets returns
+ * @return: none (main never gets returns)
  */
  // Ask the user what operation they want (+, -, *, /)
  // Ask the user for the first number (a)
@@ -131,7 +131,6 @@
  * @return: flavor (string)
  */
 
-
 /* ************************************* */
 
 /* COLOR WHEEL KATA */
@@ -139,7 +138,7 @@
 /* Var Alert Prompt Conditional Switch 3 Functions */
 
 /* FUNCTION main() 
- * create a variable called color and prompt the user for a primary or secondary color
+ * create a variable called color and prompt the user for a primary or secondary color (they )
  * if checkColor(color) says false, say "must be primary or secondary" and call main again.
  * otherwise, display "the complementary color of [color] is [complementaryColor(color)]"
  * @param: none (main never gets params)
