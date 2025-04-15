@@ -21,9 +21,9 @@
  * /
 
 /* Function addStudents(count)
- * Create a students array, nothing in it. 
- * Use a for loop to add student names to the students array.
+ * Use a for loop to add student names to the global students array.
  * The loop should run count number of times. 
+ * The loop should ask the user for a name and push it to the students array.
  * Return the array of student names 
  * @param = count {integer}
  * @return = none
