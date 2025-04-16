@@ -10,7 +10,7 @@
 /* Function Main()
  * Set variable called count to asking how many students there are.
  * Fill global array students by passing count as an argument to addStudents
- * Set gateKeeper = randStudent(), the name of a random student in the list
+ * Set gateKeeper = randStudent(count), the name of a random student in the list
  * Set keymaster = randNewStudent(), name of a different random student
  * Display gatekeeper name and keymaster name for this kata
  * @param = none
@@ -26,21 +26,21 @@
  */
 
 
-/* Function randStudent()
+/* Function randStudent(count)
  * Set student = random number, 0 to length of students array.
  * Set name = element in students array at that random index.
  * Add name to picked array. 
  * Return the name of the random student
- * @param = none
+ * @param = count {integer}
  * @return = name {string}
  */
 
 /* Function randNewStudent() (start with copy of randStudent)
- * Set student = "" and picked = 0. 
- * Loop while picked is not equal to -1
+ * Set name = "", student = 0 and pickedYet = 0. 
+ * Loop while pickedYet is not equal to -1
  * Set student = random number, 0 to length of students array.
  * Set name = element in students array at that random index.
- * Set picked = the index of that name the picked array. 
+ * Set pickedYet = the index of that name the picked array. 
  * End the while loop.
  * Add name to picked array.
  * Return the name of the new random student
