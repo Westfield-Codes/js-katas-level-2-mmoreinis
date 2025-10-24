@@ -4,8 +4,9 @@
 
 /* Global Variables */
 // Create an array called students, start empty. 
+var students = [];
 // Create an array called picked, start empty. 
-
+var picked = [];
 
 /* Function Main()
  * Set variable called count to asking how many students there are.
@@ -16,7 +17,13 @@
  * @param = none
  * @return = none
  */
-
+function main(){
+    let count = prompt("How many students are there?");
+    addStudents(count);
+    let gateKeeper = randStudent(count);
+    let keyMaster = randNewStudent();
+    alert("The gatekeeper = " + gateKeeper + " and the keymaster = " + keyMaster);
+}
 
 /* Function addStudents(count) 
  * Use a for loop to add student names to the students array via user input.
@@ -24,7 +31,11 @@
  * @param = count {integer}
  * @return = none
  */
-
+function addStudents(count){
+    students.push("Ven");
+    students.push("Igor");
+    students.push("Megan");
+}
 
 /* Function randStudent(count)
  * Set student = random number, 0 to length of students array.
@@ -34,7 +45,9 @@
  * @param = count {integer}
  * @return = name {string}
  */
-
+function randStudent(count){
+    return students[1];
+}
 /* Function randNewStudent() (start with copy of randStudent)
  * Set name = "", student = 0 and pickedYet = 0. 
  * Loop while pickedYet is not equal to -1
@@ -47,3 +60,7 @@
  * @param = none
  * @return = name {string}
  */
+function randNewStudent(){
+    return students[2];
+}
+ 
